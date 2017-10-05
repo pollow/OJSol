@@ -1,3 +1,10 @@
+# Ignore all
+*
+# except files with extension
+!*.*
+# and directory
+!*/
+
 # Prerequisites
 *.d
 
@@ -30,3 +37,12 @@
 *.exe
 *.out
 *.app
+
+# Haskll
+*.hi
+
+# Vim
+*.swp
+
+# Emacs
+.#*
