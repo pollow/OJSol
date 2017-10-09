@@ -1,6 +1,3 @@
-import Debug.Trace
-import Data.Char
-
 eachLine f = unlines . map f . lines
 
 main :: IO ()
